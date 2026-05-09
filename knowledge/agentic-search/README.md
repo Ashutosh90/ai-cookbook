@@ -1,4 +1,4 @@
-# Agentic RAG vs. Semantic RAG
+# Building Agentic RAG From Scratch in Pure Python
 
 For the past few years, whenever we wanted to give an LLM extra context, the default answer was RAG. In practice, that usually meant semantic search: chunk the source material, embed it, store it in a vector database, retrieve the most relevant chunks, and place those chunks in the prompt.
 
